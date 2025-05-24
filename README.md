@@ -36,5 +36,18 @@ The project pipeline includes:
 ├── train.py               # Training logic and loss computation
 ├── training_script.py     # Entry point for training
 ├── logtest.py             # Logs & testing utilities
-├── requirements.txt       # Dependencies
 └── README.md              # This file
+```
+## ⚠️ Project Status
+
+> ⏳ **Training was not completed** due to compute limits on Colab and Kaggle.  
+>
+> ✅ However:
+> - The **entire ML pipeline** is functional: data ingestion, model definition, training loop, and evaluation.  
+> - The code is modular and ready for scaling on better hardware.  
+>
+> 🛠️ **Future goals**:
+> - Train on a GPU cluster (e.g. Paperspace, Lambda Labs)  
+> - Integrate Grad-CAM or anomaly heatmaps  
+> - Optimize model architecture and hyperparameters
+
